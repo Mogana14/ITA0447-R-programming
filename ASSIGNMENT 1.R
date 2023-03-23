@@ -1,9 +1,9 @@
-#1 Demonstrate Factor data structure in R.
-x <- c("A", "B", "A", "C", "B", "A")
 
-fx <- factor(x)
+a <- c("A", "B", "A", "C", "B", "A")
 
-print(fx)
+b<- factor(a)
+
+print(b)
 
 #2 Create a factor gender with levels female and male
 
@@ -12,7 +12,7 @@ levels(gender)
 
 #3 Use is.factor() is used to check whether the variable is a factor and returns “TRUE” if it is a factor
 
-is.factor(fx)
+is.factor(b)
 is.factor(gender)
 
 #1 Perform matrix multiplication
